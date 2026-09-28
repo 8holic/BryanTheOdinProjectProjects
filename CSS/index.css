@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+
+  font-family: Roboto;
+}
+
+.segment {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 4rem;
+
+}
+.left{
+ flex:1;
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  min-width: 0;
+}
+.right{
+    flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  min-width:0;
+}
+
+img{
+    max-width: 200px;
+    height: auto;
+}
+
+.nav    { background: #1F2937; color: white; justify-content: space-between;}
+
+.banner { background: #1F2937; color: white; }
+
+.banner h1{font-size:48; color:#F9FAF8;font-weight: 800;}
+.banner p{font-size:18; color:#E5E7EB;}
+
+
+.main   { background: White; color: black; gap:1rem;}
+
+figure {
+  inline-size: fit-content;
+  margin-inline: auto; /* Optional: centers the figure if needed */
+}
+
+figcaption {
+  contain: inline-size;
+}
+
+.signup{
+    background: #3882F6;
+  color: white;
+  border: white solid 1px;
+  border-radius: 1.5rem;   /* half the button height = pill */
+  padding: 0.75rem 2rem;   /* tall enough that 1.5rem radius rounds it fully */
+  font-size: 1rem;
+  cursor: pointer;
+    text-align: center;
+    max-width: 150px;
+}
+
+.quote  { background: #E5E7EB; color: black; }
+.quote blockquote{font-size: 36px; color:#1F2937; font-weight: 300; font-style: italic;}
+.end    { background: white; color: white; }
+.end {
+    background: white;
+    color: white;
+}
+
+.end box {
+    background: #3882F6;
+    border-radius: 6px;
+    min-width: 70%;
+    padding: 2.5rem 4rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.end .left {
+    display: block;
+}
+
+.end .right {
+    flex: 0;
+}
+
+.end h1 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.end p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.end .signup {
+    border-radius: 6px;
+    padding: 0.4rem 1.5rem;
+}
+
+.footer { background: #1F2937; color: white; }
