@@ -1,0 +1,14 @@
+{
+  "name": "js_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloWorld.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
